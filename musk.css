@@ -1,0 +1,89 @@
+nav{
+    margin-left: 800px;
+    display: block;
+}
+h1{
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+#Child h3{
+    text-align: center;
+    text-decoration: underline;
+}
+#ComFou h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    color: blue;
+}
+#elon{
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+}
+.leftBox img{
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+}
+.centerBox{
+    margin-top: -150px;
+    margin-left: 100px;
+}
+.box{
+    border: 1px solid white;
+    height: 500px;
+    width: 100%;
+    display: box;
+    box-align: stretch;
+    
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-align: stretch;
+    
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-align: stretch;
+}
+.leftBox{
+    height: 200px;
+    display: box;
+    width: 45%;
+    box-align: stretch;
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-align: stretch;
+    
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-align: stretch;
+}
+.rightBox{
+    height: 300px;
+    display: box;
+    width: 43%;
+    box-align: stretch;
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-align: stretch;
+    
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-align: stretch;
+}
+
+#Awards h3{
+    text-align: center;
+    text-decoration: underline;
+}
+#PopMedia{
+    margin-top: 180px;
+    display: block;
+}
+#PopMedia h3{
+    text-align: center;
+    text-decoration: underline;
+}
