@@ -14,6 +14,7 @@ h1{
 #ComFou h3{
     text-align: center;
     text-decoration: underline;
+    margin-right: 70px;
 }
 
 p{
@@ -30,7 +31,7 @@ p{
     margin-left: 250px;
 }
 .centerBox{
-    margin-top: -150px;
+    margin-top: -20px;
     margin-left: 100px;
 }
 .box{
@@ -79,11 +80,25 @@ p{
     text-align: center;
     text-decoration: underline;
 }
+#Awards :nth-child(1n+2){
+    color: red;
+}
+#Awards :nth-child(2n+2){
+    color: blue;
+}
 #PopMedia{
     margin-top: 180px;
     display: block;
 }
+
+#PopMedia li:nth-child(1n+2){
+    color: red;
+}
+#PopMedia li:nth-child(2n+1){
+    color: blue;
+}
 #PopMedia h3{
     text-align: center;
     text-decoration: underline;
+    color: black;
 }
